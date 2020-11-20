@@ -58,3 +58,10 @@ tensorflow>=1.4.1
 - [원본 소스코드](https://github.com/field-cady/the_data_science_handbook)
 
 
+git clone --mirror http://github.com/Kyungpyo-Kim/old_repo.git
+
+cd old_repo.git/
+
+git remote set-url --push origin https://github.com/Kyungpyo-Kim/new_repo.git
+
+git push --mirror
